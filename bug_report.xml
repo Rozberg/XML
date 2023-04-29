@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bugReport>
+<ID>249</ID>
+<Severity>Critical</Severity>
+<Priority>High</Priority>
+<Title>The message in the feedback form is not sended to server</Title>
+<Preconditions>1. Navigate to zzzzzz.com, 2. Open the section Contacts</Preconditions> 
+<StepsToReproduce>1. Open the feedback form, 2. Enter valid data in the field 'Name' - 'Ivan', 3. Enter valid data in the field 'Email' - 'ivan@google.com', 4. Enter valid data in the field 'Message' - 'The form doesn't work', 5. Click on the button [Send message]</StepsToReproduce>
+<ExpectedResult>The message is sended to server</ExpectedResult>
+<ActualResult>The message is not sended to server</ActualResult>
+<Environment>Windows 10 Home, Firefox 105</Environment>
+<Link>Link</Link>
+</bugReport>
